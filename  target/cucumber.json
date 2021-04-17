@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4296112982,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the TechFios Login Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_the_TechFios_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "user should be able login with valid credentials",
+        "description": "",
+        "id": "validate-login-functionality;user-should-be-able-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 224370490,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username",
+            "match": {
+              "location": "LoginSteps.user_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111186105,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters password",
+            "match": {
+              "location": "LoginSteps.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1455983177,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Signin Button",
+            "match": {
+              "location": "LoginSteps.user_click_on_Signin_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15396,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should land on Dashboard Page",
+            "match": {
+              "location": "LoginSteps.user_should_land_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Login Functionality",
+    "description": "",
+    "id": "validate-login-functionality",
+    "keyword": "Feature",
+    "uri": "features/Login.feature"
+  }
+]
